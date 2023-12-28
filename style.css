@@ -26,28 +26,66 @@
 }
 @media (min-width: 890px){ /* Para PC */
 
+    .section-1{
+        padding-left: 30px;
+        height: 120vh;
+       } 
+
     .navbar-brand{
         margin-left: 40px;
         margin-right: 100px;
     }
 
     .nav-item{
+        padding-left: 20px;
+        font-size: 18px;
+    }
 
+    .p-menu{
+       color: white;
+       padding-left: 210px;
+       padding-right: 100px;
+    }
+
+    .btn-menu{
+        color: #0F57FB;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
     }
 
    .img-1{
+    margin-top: 110px;
+    margin-left: -130px;
     width: 589px;
     height: 683px;
-} 
+    } 
 
-.esquerdo{
+    .p-t{
+        font-size: 18px;
+        padding-right: 100px;
+        word-spacing: 5px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .esquerdo{
     margin-top: 170px;
     padding-left: 120px;
-}
+    }
 
-.h1-t{
+    .h1-t{
     font-size: 54px;
-}
+    }
+
+    .btn-1{ 
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       }
 }
 
 @media (max-width: 889px){ /* Para CELULAR */
