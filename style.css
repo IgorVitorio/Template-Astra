@@ -1,9 +1,13 @@
+html, body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
 .navbar-brand{
     font-weight: bold;
 }
 .section-1{
     background-color: #0F57FB;
-    height: 100vh;
 }
 
 .h1-t{
@@ -28,7 +32,6 @@
 
     .section-1{
         padding-left: 30px;
-        height: 120vh;
        } 
 
     .navbar-brand{
@@ -58,7 +61,6 @@
 
    .img-1{
     margin-top: 110px;
-    margin-left: -130px;
     width: 589px;
     height: 683px;
     } 
@@ -86,13 +88,18 @@
         padding-top: 10px;
         padding-bottom: 10px;
        }
+       
+    .carousel-item {
+        height: 600px;
+        object-fit: cover;
+      }
 }
 
 @media (max-width: 889px){ /* Para CELULAR */
 
    .section-1{
     padding-left: 30px;
-    height: 136vh;
+    padding-bottom: 30px;
    } 
 
    .h1-t{
@@ -102,7 +109,7 @@
     padding-right: 20px;
     }
     .p-t{
-        font-size: 18px;
+        font-size: 14px;
         margin-bottom: 30px;
         padding-right: 20px;
         font-weight: 400;
@@ -111,13 +118,14 @@
     }
 
     .img-1{
-        padding-top: 30px;
-        padding-right: 20px;
+        margin-top: 20px;
+        padding-right: 10px;
+        object-fit: cover;
     }
     
     .btn-1{
-        padding-left: 20px;
-        padding-right: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -134,7 +142,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         margin-top: 10px;
-        margin-left:-20px;
+        margin-left: 0px;
         margin-bottom: -50px;
     }
 
@@ -143,4 +151,62 @@
         background-color: rgba(255, 255, 255, 0.354);
         padding: 20px;
     }
+
+    .img-2{
+        padding-top: 50px;
+    }
+
+    h5{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .h1-2{
+        padding-bottom: 20px;
+    }
+
+    .p-2{
+        padding-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .btn-2{
+        margin-bottom: 30px;
+    }
+
+    .map-1{
+        width:20px;
+        height:300px;
+    }
+}
+.emergency{
+    color: white;
+}
+
+.btn-3{
+    background-color: white;
+    font-size: 16px;
+    color: #0F57FB;
+    font-weight: bold;
+}
+
+.p-emergency{
+    font-size: 18px;
+}
+
+.bi-star-fill{
+    color: rgb(250, 149, 41);
+}
+
+.test{
+    width: 70px;
+    height: 70px;
+}
+
+.bg-7{
+    background-color: #0F57FB;
+}
+
+.credits{
+    color: rgb(123, 123, 123);
 }
